@@ -19,6 +19,10 @@
 			/WEB-INF/question-bank-servlet.xml
 		</param-value>  
 	</context-param>
+	<context-param>
+    <param-name>tempfile.dir</param-name>
+    <param-value>tmpfiles</param-value>
+  </context-param>
 	<listener>
 		<listener-class>
 			org.springframework.web.context.request.RequestContextListener
